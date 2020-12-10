@@ -5,16 +5,16 @@
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "components/user-component.css";
-@import "badge.css";
+@import "components/badge.css";
 /*screens*/
 @import "screens/login.css";
 @import "screens/friends.css";
-
+@import "screens/find.css";
 body {
+  color: #2e363e;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   padding-top: 22px;
-  color: #2e363e;
 }
 
 .main-screen {
